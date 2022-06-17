@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
+
+* {
+    /* 怪异盒子模型 */
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
+
+html {
+    /* 
+      transition-property：指定哪个或哪些 CSS 属性用于过渡
+      transition-duration:指定过渡的时长
+      transition-timing-function:告诉系统过渡动画的运动的速度
+      transition-delay:指定延迟，即属性开始变化时与过渡开始发生时之间的时长
+    */
+    transition: all 0.5s ease-in;
+}
+
+html.dark {
+    --primary-color: #fff;
+    --secondary-color: #333;
+}
+
+html.dark {
+    background-color: #111;
+    color: var(--primary-color);
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+}
