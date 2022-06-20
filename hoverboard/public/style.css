@@ -1,0 +1,10 @@
+* {
+    /* 怪异盒子模型 */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1d1d;
+    height: 100vh;
+    overflow: hidden;
+}
