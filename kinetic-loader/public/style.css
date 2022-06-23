@@ -1,0 +1,16 @@
+* {
+    /* 怪异盒子模型 */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2c3e50;
+    display: flex;
+    /* 垂直居中 */
+    align-items: center;
+    /* 水平居中 */
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
